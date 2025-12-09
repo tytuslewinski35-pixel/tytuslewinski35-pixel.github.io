@@ -1,0 +1,32 @@
+body{
+    max-width: 980px; max-height: 780px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:normal;
+}
+nav{
+    text-align: right;
+    background-color:grey;
+    line-height: border-bottom;
+    
+}
+article{
+    float:left;
+    size: 50%;
+}
+main>article>img.flright{
+    
+    float: right;
+    size: 50%;
+}
+.flright{
+    float: right;
+    size: 50%;
+}
+footer{
+    background-color: grey;
+}
+.storstafur{
+    color:red;
+    font-size: 50px;
+    
+}

@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+    clear:both
+}
+.g1{padding: 30px;}
+.g2{padding: 30px;}
+.g1{float: left;
+    width: 50%;
+    p::first-letter{
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding-right: 10px;
+        float: left;
+     }
+}
+.gulurBackground{
+    background-color: yellow;
+    padding: 8px 12px;
+    display: block;
+    text-align: center;
+}
+.flleft{
+    float:right
+}

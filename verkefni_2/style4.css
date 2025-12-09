@@ -1,0 +1,27 @@
+
+    
+    li{
+        display: inline; border-right: 2px solid #337ab7;
+    }
+    nav, header, article, aside {margin-bottom: 20px;}
+    nav a {margin-right: 8px; color: #337ab7; }
+    header {text-align: center; border-top: 1px solid #aac; border-bottom: 1px solid #aac;}
+    h1 {font-style: italic; color: #88a; margin: 10px 0;}
+    h2 {color: #337ab7; }
+    blockquote {border: 1px solid #aac; padding: 10px; background: #f9f9f9;}
+    hr{border-top: green 1px solid;}
+    .navhr{
+        border-top: 2px solid purple
+    } 
+    footer li{display: inline; border-right: 2px solid gray; width: 150 px; text-align: center;}
+    footer ul{width: 100%; }
+   
+    .fótur>.p1{
+        width: 33,33%; float: left; text-align: center; 
+    }
+    .fótur>.p2{
+        width: 33,33%; float: left; text-align: center;
+    }
+    .fótur>.p3{
+        width: 33,33%; float: left; text-align: center;
+    }

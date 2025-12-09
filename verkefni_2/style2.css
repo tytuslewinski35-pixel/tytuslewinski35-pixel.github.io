@@ -1,0 +1,27 @@
+ul{
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+.block>li{
+    display:block;
+    list-style-type: none;
+    border: 3px dashed green;
+    margin: 1em;
+    padding: 1em;
+}
+.inline>li{
+    display:inline;
+    list-style-type: none;
+    border: 3px dashed red;
+    margin: 1em;
+    padding: 1em;
+}
+.inline-block>li{
+    display:inline-block;
+    list-style-type: none;
+    border: 3px dashed blue;
+    margin: 1em;
+    padding: 1em;
+}
