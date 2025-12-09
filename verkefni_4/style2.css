@@ -1,0 +1,58 @@
+nav{
+    display: block;
+	text-align: center;
+	margin:3%;
+	word-spacing:101px;
+}
+footer{
+	text-align: center;
+	margin:3%;
+	word-spacing:101px;
+}
+header{
+	text-align: center;
+	color:blanchedalmond;
+}
+.wordUnderFyrirsögn{
+	text-align: center;
+	font-size: smaller;
+
+}
+.textInBox{
+	border: 1px solid #333;
+	padding: 10px;
+	margin: 15px 0;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	margin: 20px;
+	
+}
+.textInGrid{
+	display:grid;
+	grid-template-columns: 1fr;
+}
+
+
+@media screen and (min-width: 600px){
+    nav{flex-direction: row;}
+}
+
+@media screen and (min-width: 768){
+    main{grid-template-columns: 1fr 2fr 1fr;}
+    aside{grid-template-columns: 1fr 1fr;}
+}
+
+@media screen and (min-width: 960px){
+    main{grid-template-columns: 2fr 1fr;}
+    aside{grid-template-columns: 1fr;}
+}
+
+@media screen and(min-width: 1280px){
+    .wrapper{
+        max-width: 80em;
+
+    }
+}
