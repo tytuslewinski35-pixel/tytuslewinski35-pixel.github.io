@@ -1,0 +1,64 @@
+img {
+     max-width: 100%;
+     height: auto;
+}
+  p {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+
+nav{
+    display: grid;
+    
+}
+
+@media screen and (min-width:48rem) {
+    .col-2{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+    padding: 5px;
+    }
+
+@media screen and (min-width:48rem){
+    .col-3{
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    padding: 5px;
+    }
+    
+}
+
+@media screen and (min-width:48rem){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+}
+div{
+    background-image: linear-gradient(to bottom, rgb(14, 10, 220), cyan); 
+}
+nav{
+    background-color: red;
+}
+footer{
+    background-color: red;
+}
+
+    
+
+a:visited {
+    columns: green;
+}
+a:hover, a:active {
+    columns: blue;
+    text-decoration: none;
+    color:aquamarine
+}
