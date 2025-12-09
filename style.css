@@ -1,0 +1,84 @@
+body{
+    background-color: #0c0c0c;
+}
+p{
+    color: #e9e3d5;
+}
+header,dl,dt{
+    color: #d2b47c;
+}
+h2,h3,h4{
+    color: #e3c892;
+}
+h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:48rem) {
+    
+
+.Gustave {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.8rem; 
+    font-family: 'Cinzel', serif;
+
+}
+.E33{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.Lumiere{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+
+
+}
+.lumiereVid{
+    
+    padding-top: 100px;
+}
+    
+}
+.lorienTestard{
+    text-align: center;
+}
+
+iframe{
+    max-width: 100%;
+    border-radius: 20px;
+    border-color: #d2b47c;
+    border-width: 3px;
+}
+
+.Gustave{
+    display: grid;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    color: #d2b47c;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+a:hover{
+    color:#FDD017;
+}
+.differentTop{
+    color: #FDD017;
+}
+.differentTop:hover{
+    color:#d2b47c;
+}
+
+
+
+
