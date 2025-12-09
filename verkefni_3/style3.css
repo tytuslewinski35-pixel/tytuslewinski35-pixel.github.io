@@ -1,0 +1,35 @@
+nav{
+	text-align: center;
+	margin:3%;
+	word-spacing:101px;
+}
+footer{
+	text-align: center;
+	margin:3%;
+	word-spacing:101px;
+}
+header{
+	text-align: center;
+	color:blanchedalmond;
+}
+.wordUnderFyrirsögn{
+	text-align: center;
+	font-size: smaller;
+
+}
+.textInBox{
+	border: 1px solid #333;
+	padding: 10px;
+	margin: 15px 0;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	gap: 20px;
+	margin: 20px;
+	
+}
+.textInGrid{
+	display:grid;
+	grid-template-columns: 1fr;
+}

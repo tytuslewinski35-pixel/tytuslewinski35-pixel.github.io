@@ -1,0 +1,45 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+.row{
+	display: flex;
+	flex-flow: row-reverse;
+}
+.row>.box{
+	text-align: center;
+	flex-grow:1;
+}
+.gulur {
+	background-color: yellow; 
+	}
+.raudur {
+	background-color: red; 
+	
+}
+.graenn {
+	background-color: lime;
+	
+}
+.blar {
+	background-color: cyan; 
+	
+}
+
+.row p, .col p {
+	font-size: 1.2em;
+	height: 5em;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+

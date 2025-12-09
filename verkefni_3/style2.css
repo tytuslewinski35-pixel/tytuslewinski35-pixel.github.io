@@ -1,0 +1,19 @@
+.col2,.col3,.col4{
+    display:grid;
+    border: 1px solid black;
+}
+.col2{
+    
+    grid-template-columns: repeat(2,1fr);
+}
+.box{
+    padding:10px;
+}
+.col3{
+    
+    grid-template-columns: repeat(3,1fr);
+}
+.col4{
+    
+    grid-template-columns: repeat(4,1fr);
+}
