@@ -1,0 +1,27 @@
+    body {
+        background-image: linear-gradient(to bottom, green, cyan); 
+        
+    }
+    p {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+.v1{
+    color:red;
+}
+.v2{
+    color:yellow;
+}
+.v3{
+    color:blueviolet;
+}
+.v4{
+    color:green;
+}
+.v5{
+    color:brown;
+}
